@@ -1,458 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Portfolio</title>
-        <meta name="description" content="Portfolio Template for Developer" />
 
-        <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio Template for Developer" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-            rel="stylesheet"
-        />
-        <!-- Google tag (gtag.js) -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-D4GJ0709YF"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+  <link rel="stylesheet" href="css/style.css" />
 
-            gtag("config", "G-D4GJ0709YF");
-        </script>
-    </head>
-    <body>
-        <header class="header">
-            <div class="header__content">
-                <div class="header__logo-container">
-                    <div class="header__logo-img-cont">
-                        <img
-                            src="assets/photo/myPhoto.jpg"
-                            alt="Ram Maheshwari Logo Image"
-                            class="header__logo-img"
-                        />
-                    </div>
-                    <span class="header__logo-sub">Oleksandr Sylko</span>
-                </div>
-                <div class="header__main">
-                    <ul class="header__links">
-                        <li class="header__link-wrapper">
-                            <a href="./index.html" class="header__link">
-                                Home
-                            </a>
-                        </li>
-                        <li class="header__link-wrapper">
-                            <a href="./index.html#about" class="header__link"
-                                >About
-                            </a>
-                        </li>
-                        <li class="header__link-wrapper">
-                            <a
-                                href="./index.html#projects"
-                                class="header__link"
-                            >
-                                Projects
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="header__main-ham-menu-cont">
-                        <img
-                            src="./assets/svg/ham-menu.svg"
-                            alt="hamburger menu"
-                            class="header__main-ham-menu"
-                        />
-                        <img
-                            src="./assets/svg/ham-menu-close.svg"
-                            alt="hamburger menu close"
-                            class="header__main-ham-menu-close d-none"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="header__sm-menu">
-                <div class="header__sm-menu-content">
-                    <ul class="header__sm-menu-links">
-                        <li class="header__sm-menu-link">
-                            <a href="./index.html"> Home </a>
-                        </li>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4GJ0709YF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-                        <li class="header__sm-menu-link">
-                            <a href="./index.html#about"> About </a>
-                        </li>
+    gtag("config", "G-D4GJ0709YF");
+  </script>
+</head>
 
-                        <li class="header__sm-menu-link">
-                            <a href="./index.html#projects"> Projects </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-        <section class="home-hero">
-            <div class="home-hero__content">
-                <h1 class="heading-primary">Oleksandr Sylko</h1>
-                <div class="home-hero__info">
-                    <p class="text-primary">
-                        Junior Front End Web Developer from Kyiv, Ukraine
-                    </p>
-                </div>
-                <div class="home-hero__cta">
-                    <a href="./#projects" class="btn btn--bg">Projects</a>
-                </div>
-                <div class="home-hero__cta">
-                    <a
-                        download=""
-                        href="https://drive.google.com/file/d/1-6enby0KXhpksWLlN009Ep2Pdo9DiVCk/view?export?format=pdf"
-                        class="btn btn--bg"
-                        >My CV</a
-                    >
-                </div>
-            </div>
-            <div class="home-hero__socials">
-                <div class="home-hero__social">
-                    <a
-                        href="https://www.linkedin.com/in/oleksandr-sylko-74149825b/"
-                        class="home-hero__social-icon-link"
-                    >
-                        <img
-                            src="./assets/png/linkedin-ico.png"
-                            alt="icon"
-                            class="home-hero__social-icon"
-                        />
-                    </a>
-                </div>
-                <div class="home-hero__social">
-                    <a
-                        href="https://github.com/olexanax"
-                        class="home-hero__social-icon-link"
-                    >
-                        <img
-                            src="./assets/png/github-ico.png"
-                            alt="icon"
-                            class="home-hero__social-icon"
-                        />
-                    </a>
-                </div>
-                <div class="home-hero__social">
-                    <a
-                        href="https://twitter.com/olexanax"
-                        class="home-hero__social-icon-link"
-                    >
-                        <img
-                            src="./assets/png/twitter-ico.png"
-                            alt="icon"
-                            class="home-hero__social-icon"
-                        />
-                    </a>
-                </div>
-                <div class="home-hero__social">
-                    <a
-                        href="https://t.me/SpiderBoss4000"
-                        class="home-hero__social-icon-link"
-                    >
-                        <img
-                            src="./assets/png/telegram.png"
-                            alt="icon"
-                            class="home-hero__social-icon"
-                        />
-                    </a>
-                </div>
-                <div class="home-hero__social">
-                    <a
-                        href="https://instagram.com/olexanax?igshid=ZDdkNTZiNTM="
-                        class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-                    >
-                        <img
-                            src="./assets/png/insta-ico.png"
-                            alt="icon"
-                            class="home-hero__social-icon"
-                        />
-                    </a>
-                </div>
-            </div>
-            <div class="home-hero__mouse-scroll-cont">
-                <div class="mouse"></div>
-            </div>
-        </section>
-        <section id="about" class="about sec-pad">
-            <div class="main-container">
-                <h2 class="heading heading-sec heading-sec__mb-med">
-                    <span class="heading-sec__main">About Me</span>
-                    <span class="heading-sec__sub">
-                        A motivated junior front end developer looking for an
-                        opportunity to join a development team. I'm responsible,
-                        attentive, eager to learn new things and upgrade my
-                        skills. I always try to find the best possible solution
-                        for any issue. I'm an easy person to integrate with any
-                        team.
-                    </span>
-                </h2>
-                <div class="about__content">
-                    <div class="about__content-main">
-                        <h3 class="about__content-title">Get to know me!</h3>
-                        <div class="about__content-details">
-                            <p class="about__content-details-para">
-                                i'm <strong>Oleksandr Sylko</strong>,
-                                <strong> Frontend Web Developer </strong> from
-                                Kyiv. I'm looking for a team. I interested in
-                                creating new things and improving the old ones,
-                                always learning something new and not going to
-                                stop. I want to improve my skills by working in
-                                a team on professionals and bring value to new
-                                projects.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="about__content-skills">
-                        <h3 class="about__content-title">My Skills</h3>
-                        <div class="skills">
-                            <div class="skills__skill">HTML</div>
-                            <div class="skills__skill">CSS</div>
-                            <div class="skills__skill">JavaScript</div>
-                            <div class="skills__skill">React</div>
-                            <div class="skills__skill">Redux</div>
-                            <div class="skills__skill">Redux toolkit</div>
-                            <div class="skills__skill">TypeScript</div>
-                            <div class="skills__skill">SASS</div>
-                            <div class="skills__skill">Webpack</div>
-                            <div class="skills__skill">REST API</div>
-                            <div class="skills__skill">Wordpress</div>
-                            <div class="skills__skill">Adaptive Design</div>
-                            <div class="skills__skill">Mobile first</div>
-                            <div class="skills__skill">
-                                Tailwind, AntD, MAterial UI
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="projects sec-pad">
-            <div class="main-container">
-                <h2 class="heading heading-sec heading-sec__mb-bg">
-                    <span class="heading-sec__main">Projects</span>
-                    <span class="heading-sec__sub">
-                        Here you can see all the projects which could be added
-                        to my portfolio
-                    </span>
-                </h2>
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="assets/photo/myPhoto.jpg" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Oleksandr Sylko</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link">
+              Home
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
 
-                <div class="projects__content">
-                    <div class="projects__row">
-                        <div class="projects__row-img-cont">
-                            <img
-                                src="./assets/photo/Atl.png"
-                                alt="Software Screenshot"
-                                class="projects__row-img"
-                                loading="lazy"
-                            />
-                        </div>
-                        <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">
-                                ATL (ONLINE SHOP)
-                            </h3>
-                            <p class="projects__row-content-desc">
-                                My first big project and first comerce
-                                experience. My responsibilities included (i)
-                                development of a flexible pixel-perfect layout
-                                following the BEM methodology, (ii)
-                                implementation of currency conversion
-                                calculators, forms and other business logic,
-                                (iii) development of new features.
-                            </p>
-                            <a
-                                href="https://atl.ua/ua"
-                                class="btn btn--med btn--theme dynamicBgClr"
-                                target="_blank"
-                                >View page</a
-                            >
-                        </div>
-                    </div>
-                    <div class="projects__row">
-                        <div class="projects__row-img-cont">
-                            <img
-                                src="./assets/photo/recipes.png"
-                                alt="Software Screenshot"
-                                class="projects__row-img"
-                                loading="lazy"
-                            />
-                        </div>
-                        <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">
-                                Recipes App
-                            </h3>
-                            <p class="projects__row-content-desc">
-                                This is a recipe management application that
-                                allows users to create, view, and manage their
-                                recipes. With this app, users can easily
-                                organize their favorite recipes, add new ones,
-                                and search for specific recipes based on various
-                                criteria.
-                            </p>
-                            <a
-                                href="https://recipe-menegment-test.vercel.app/"
-                                class="btn btn--med btn--theme dynamicBgClr"
-                                target="_blank"
-                                >View page</a
-                            >
-                        </div>
-                    </div>
-                    <div class="projects__row">
-                        <div class="projects__row-img-cont">
-                            <img
-                                src="./assets/photo/projectsPage.png"
-                                alt="Software Screenshot"
-                                class="projects__row-img"
-                                loading="lazy"
-                            />
-                        </div>
-                        <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">
-                                Projects Page
-                            </h3>
-                            <p class="projects__row-content-desc">
-                                This project is a test assignment that I
-                                completed within 8 hours. The task was to
-                                envision how a Projects page would look like and
-                                implement it using React, while independently
-                                choosing the necessary libraries.
-                            </p>
-                            <a
-                                href="https://projects-page-one.vercel.app/"
-                                class="btn btn--med btn--theme dynamicBgClr"
-                                target="_blank"
-                                >View page</a
-                            >
-                        </div>
-                    </div>
-                    <div class="projects__row">
-                        <div class="projects__row-img-cont">
-                            <img
-                                src="./assets/photo/memoryGame.png"
-                                alt="Software Screenshot"
-                                class="projects__row-img"
-                                loading="lazy"
-                            />
-                        </div>
-                        <div class="projects__row-content">
-                            <h3 class="projects__row-content-title">
-                                Memory Game
-                            </h3>
-                            <p class="projects__row-content-desc">
-                                This game is a simple and enjoyable game that I
-                                developed in 2 hours and had a lot of fun with.
-                                The main objective of the game is to find a pair
-                                for each card. Each card gradually flips over
-                                when clicked, revealing an image. The player
-                                needs to memorize the location of each card and
-                                find its pair to collect all the pairs.
-                            </p>
-                            <a
-                                href="https://memory-game-cyan-five.vercel.app/"
-                                class="btn btn--med btn--theme dynamicBgClr"
-                                target="_blank"
-                                >Play</a
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="main-footer">
-            <div class="main-container">
-                <div class="main-footer__upper">
-                    <div class="main-footer__row main-footer__row-1">
-                        <h2 class="heading heading-sm main-footer__heading-sm">
-                            <span>Social</span>
-                        </h2>
-                        <div class="main-footer__social-cont">
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href="https://www.linkedin.com/in/oleksandr-sylko-74149825b/"
-                            >
-                                <img
-                                    class="main-footer__icon"
-                                    src="./assets/png/linkedin-ico.png"
-                                    alt="icon"
-                                />
-                            </a>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href="https://github.com/olexanax"
-                            >
-                                <img
-                                    class="main-footer__icon"
-                                    src="./assets/png/github-ico.png"
-                                    alt="icon"
-                                />
-                            </a>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href="https://twitter.com/olexanax"
-                            >
-                                <img
-                                    class="main-footer__icon"
-                                    src="./assets/png/twitter-ico.png"
-                                    alt="icon"
-                                />
-                            </a>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href="https://t.me/SpiderBoss4000"
-                            >
-                                <img
-                                    class="main-footer__icon"
-                                    src="./assets/png/telegram.png"
-                                    alt="icon"
-                                />
-                            </a>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href="https://instagram.com/olexanax?igshid=ZDdkNTZiNTM="
-                            >
-                                <img
-                                    class="main-footer__icon main-footer__icon--mr-none"
-                                    src="./assets/png/insta-ico.png"
-                                    alt="icon"
-                                />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="main-footer__row main-footer__row-2">
-                        <h4 class="heading heading-sm text-lt">
-                            Oleksandr Sylko
-                        </h4>
-                        <p class="main-footer__short-desc">
-                            Thank's for your attenteion, have a nice day and
-                            work :)
-                        </p>
-                    </div>
-                </div>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
 
-                <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-                <div class="main-footer__lower">
-                    <a
-                        class="main-footer"
-                        target="_blank"
-                        href="https://u24.gov.ua/uk"
-                        >Slava Ukraini</a
-                    >
-                </div>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Oleksandr Sylko</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Front End Web Developer from Kyiv, Ukraine
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
+      <div class="home-hero__cta">
+        <a target="_blank" download=""
+          href="https://drive.google.com/file/d/1lk6r4HzwmxASrRzsbobk74RUr8_Ibim-/view?usp=drive_link"
+          class="btn btn--bg">My CV</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/oleksandr-sylko-74149825b/" class="home-hero__social-icon-link">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/olexanax" class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://twitter.com/olexanax" class="home-hero__social-icon-link">
+          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://t.me/SpiderBoss4000" class="home-hero__social-icon-link">
+          <img src="./assets/png/telegram.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://instagram.com/olexanax?igshid=ZDdkNTZiNTM="
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Frontend developer with >1.5 years of commercial experience. Worked in product and outsourcing companies,
+          developed CRM systems for enterprises, websites for large companies, personal CMS systems and landing pages. I
+          have experience in project management at the development level.
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              i'm <strong>Oleksandr Sylko</strong>,
+              <strong> Frontend Developer </strong> from
+              Kyiv. I am looking for a company that prioritizes the growth of its employees. I give priority to complex
+              and non-standard tasks. It is important for me that the company is not of Russian origin
+            </p>
+          </div>
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS/SCSS/SASS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React.js</div>
+            <div class="skills__skill">Next.js</div>
+            <div class="skills__skill">Redux/Redux toolkit</div>
+            <div class="skills__skill">MobX</div>
+            <div class="skills__skill">RTK Query/React Query</div>
+            <div class="skills__skill">TypeScript</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">UI-kit libs</div>
+            <div class="skills__skill">Webpack</div>
+            <div class="skills__skill">REST API</div>
+            <div class="skills__skill">Wordpress</div>
+            <div class="skills__skill">Adaptive Design</div>
+            <div class="skills__skill">Mobile first</div>
+            <div class="skills__skill">
+              Tailwind, AntD, MAterial UI
             </div>
-        </footer>
-        <script src="./index.js"></script>
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Here you can see all the projects which could be added
+          to my portfolio
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/icap.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              ICAP groupg mbh
+            </h3>
+            <p class="projects__row-content-desc">
+              Redesigning the website of the company I worked for. The site is written in Next.js, it also has a custom
+              CMS, SEO optimization, and localization (en, de, ua)
+            </p>
+            <a href="https://icapgroupgmbh.com/en" class="btn btn--med btn--theme dynamicBgClr" target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/motosport.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              http://motosport/en
+            </h3>
+            <p class="projects__row-content-desc">
+              The site is written in Next.js, it also has a custom
+              CMS, SEO optimization, and localization (en, de, ua)
+            </p>
+            <a href="http://157.230.117.6/en" class="btn btn--med btn--theme dynamicBgClr" target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/tedor.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              https://www.tedoradze.consulting/
+            </h3>
+            <p class="projects__row-content-desc">
+              Site written in 1 day on Next.js
+            </p>
+            <a href="https://www.tedoradze.consulting/" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/photo.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              https://www.honest-photography.com/en
+            </h3>
+            <p class="projects__row-content-desc">
+              The site is written in Next.js, it also has a custom
+              CMS, SEO optimization, and localization (en, esp, ua)
+            </p>
+            <a href="https://www.honest-photography.com/en" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/pp.png" alt="Software Screenshot"
+              class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              https://pp-manager.de/
+            </h3>
+            <p class="projects__row-content-desc">
+              The site is written in Next.js, it features a CRM system that I also worked on
+            </p>
+            <a href="https://pp-manager.de/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/skg.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              https://skg-global.co/en
+            </h3>
+            <p class="projects__row-content-desc">
+              A very nice website written in Next.js, has localization (en,de)
+            </p>
+            <a href="https://skg-global.co/en" class="btn btn--med btn--theme dynamicBgClr" target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/atl.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              https://atl.ua/ua
+            </h3>
+            <p class="projects__row-content-desc">
+              The project I worked on with the team for 6 months. A large e-commerce site for the sale of automotive
+              products
+            </p>
+            <a href="https://atl.ua/ua" class="btn btn--med btn--theme dynamicBgClr" target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/stutgart.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              https://www.brennholz-buehler.de/
+            </h3>
+            <p class="projects__row-content-desc">
+              Next.js project, one of the first works
+            </p>
+            <a href="https://www.brennholz-buehler.de/" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img style="object-fit: cover; border: 2px sold black" src="./assets/photo/blue.png"
+              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">
+              https://www.aberlesolutions.de
+            </h3>
+            <p class="projects__row-content-desc">
+              Landing on Next.js, a small and pleasant project
+            </p>
+            <a href="https://www.aberlesolutions.de" class="btn btn--med btn--theme dynamicBgClr" target="_blank">View
+              page</a>
+          </div>
+        </div>
+        <!-- /////////////////////////////////////////// -->
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/oleksandr-sylko-74149825b/">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/olexanax">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/olexanax">
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://t.me/SpiderBoss4000">
+              <img class="main-footer__icon" src="./assets/png/telegram.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com/olexanax?igshid=ZDdkNTZiNTM=">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">
+            Oleksandr Sylko
+          </h4>
+          <p class="main-footer__short-desc">
+            Thank's for your attenteion, have a nice day and
+            work :)
+          </p>
+        </div>
+      </div>
+
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        <a class="main-footer" target="_blank" href="https://u24.gov.ua/uk">Slava Ukraini</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
 </html>
